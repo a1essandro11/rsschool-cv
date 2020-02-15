@@ -46,6 +46,8 @@ $(document).ready(function () {
 
 ```
 
-
+# Education
+* KBiP Faculty of "Business and Law"
+* IT courses "frontend developers" at school SKILL UP
 
 
