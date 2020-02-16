@@ -50,4 +50,8 @@ $(document).ready(function () {
 * KBiP Faculty of "Business and Law"
 * IT courses "frontend developers" at school SKILL UP
 
+## My Project:
 
+> https://cybercongress.ai/
+
+>https://cyberd.ai/

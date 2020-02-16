@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUMMARY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="content">
+            <header class="header">
+                <h1>Summary</h1>
+                <hr>
+                <h1>Alexandr Naumenko</h1>
+                <img class="avatar" src="img/photo_2020-02-15_10-04-26.jpg" width="200" height="200" alt="Аватарка">
+                <hr>
+            </header>
+            <main>
+                <section class="contact">
+                    <h2>Contacts:</h2>
+                    <hr>
+                    <p>| Gmail:ans11081990@gmail.com</p>
+                    <p>| Telegram:@B00GEY_MAN</p>
+
+                </section>
+
+                <section class="task">
+                    <h2>Task:</h2>
+                    <hr>
+                    <article>
+                        <p>
+                            To acquire knowledge and experience in frontend/javascript development for making perspective carrier and be
+                            professional in this field.
+                        </p>
+                    </article>
+                </section>
+
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <hr>
+                    <span>
+                        <h3>Professional skills:</h3>
+                        <ul>
+                            <li>Basic JavaScript, Node.js</li>
+                            <li>HTML5/CSS3;</li>
+                            <li>Basic skills in Adobe Photoshop.</li>
+                        </ul>
+                    </span>
+                    <span>
+                        <h3>Languages skills:</h3>
+                        <ul>
+                            <li>Russian</li>
+                            <li>English</li>
+                        </ul>
+                    </span>
+                </section>
+
+                <section class="latest_code">
+                    <h2>Exaple of latest code:</h2>
+                    <hr>
+                        <p>Did a parallax effect for a page in a JavaScript programming language</p>
+                    <article>
+                        <pre>
+<code>
+
+$(document).ready(function () {
+
+$(".parallax-container").mousemove(function (e) {
+
+let screenWidth = $(window).width();
+let screenHeight = $(window).height();
+
+$(".parallax").css({
+transform: "translate(-" + e.pageX / screenWidth * 20 + "px, -" + e.pageY / screenHeight * 20 + "px)"
+});
+
+$(".parallax .title").css({
+transform: "translate(" + e.pageX / screenWidth * 45 + "px, " + e.pageY / screenHeight * 45 + "px)"
+});
+});
+});
+
+</code>
+</pre>
+
+                    </article>
+                </section>
+
+                <section class="education">
+                    <h2>Education:</h2>
+                    <hr>
+                    <ul>
+                        <li>KBiP Faculty of "Business and Law</li>
+                        <li>IT courses "frontend developers" at school SKILL UP</li>
+                    </ul>
+                </section>
+
+                <section class="education">
+                    <h2>
+                        My Project:
+                    </h2>
+                    <hr>
+                    <ul>
+                        <li><a href="https://cybercongress.ai/">cybercongress</a></li>
+                        <li><a href="https://cyberd.ai/">cyberd</a></li>
+                    </ul>
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
